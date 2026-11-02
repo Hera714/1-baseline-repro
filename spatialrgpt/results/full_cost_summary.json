@@ -1,0 +1,304 @@
+{
+  "timing_units": "seconds",
+  "p95": "nearest rank",
+  "warmups_excluded": true,
+  "failed_samples_included": true,
+  "component_times": "inclusive; do not sum nested events",
+  "memory_units": "bytes; torch allocated/reserved, not total device memory",
+  "stages": {
+    "spatialrgpt_evaluate": {
+      "valid_for_reporting": true,
+      "samples": 1400,
+      "statuses": {
+        "ok": 1400
+      },
+      "unparsed": 460,
+      "wall": {
+        "n": 1400,
+        "total": 871.651302061975,
+        "mean": 0.6226080729014107,
+        "median": 0.5647068992257118,
+        "p95": 1.1066212244331837,
+        "min": 0.28485972061753273,
+        "max": 2.904974114149809
+      },
+      "peak_allocated_bytes": 21620390400,
+      "peak_reserved_bytes": 22160605184,
+      "peak_device_used_bytes_nvml_sampled_20ms": null,
+      "components": {
+        "get_depth_map": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 85.61765176430345,
+            "mean": 0.061155465545931036,
+            "median": 0.05994930490851402,
+            "p95": 0.06720387190580368,
+            "min": 0.05672406777739525,
+            "max": 0.08140064775943756
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        },
+        "load_pretrained_model.1.generate": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 221.4510236978531,
+            "mean": 0.15817930264132363,
+            "median": 0.15865635871887207,
+            "p95": 0.2625165432691574,
+            "min": 0.09958454594016075,
+            "max": 0.47693629935383797
+          },
+          "returned_output_tokens": 7815,
+          "nonnegative_input_tokens": 331877,
+          "input_text_and_control_tokens": 331877,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        },
+        "load_pretrained_model.1.llm.generate": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 183.50851329788566,
+            "mean": 0.13107750949848976,
+            "median": 0.13263652846217155,
+            "p95": 0.23515048250555992,
+            "min": 0.07368412241339684,
+            "max": 0.4508913680911064
+          },
+          "returned_output_tokens": 7815,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 606277
+        },
+        "load_pretrained_model.1.prepare_inputs_labels_for_multimodal": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 37.12937845662236,
+            "mean": 0.026520984611873116,
+            "median": 0.025579558685421944,
+            "p95": 0.030737530440092087,
+            "min": 0.025269601494073868,
+            "max": 0.1375478133559227
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 6451,
+          "regional_depth_positions": 6451,
+          "effective_input_embedding_tokens": 606277
+        },
+        "make_region_masks": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 282.56596034392715,
+            "mean": 0.20183282881709083,
+            "median": 0.14437801763415337,
+            "p95": 0.5698247849941254,
+            "min": 0.009331423789262772,
+            "max": 1.5011499784886837
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        },
+        "process_images": {
+          "calls": 2800,
+          "failures": 0,
+          "time": {
+            "n": 2800,
+            "total": 102.84199129417539,
+            "mean": 0.03672928260506264,
+            "median": 0.03174941428005695,
+            "p95": 0.07827823981642723,
+            "min": 0.011574149131774902,
+            "max": 0.3096058554947376
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        },
+        "save_artifacts": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 166.66156315803528,
+            "mean": 0.11904397368431091,
+            "median": 0.10271714068949223,
+            "p95": 0.21481559053063393,
+            "min": 0.03799085691571236,
+            "max": 2.3492446579039097
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        },
+        "tokenizer_image_token": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 1.7253913842141628,
+            "mean": 0.0012324224172958306,
+            "median": 0.0010491162538528442,
+            "p95": 0.002255454659461975,
+            "min": 0.0006842911243438721,
+            "max": 0.008694034069776535
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        }
+      }
+    },
+    "spatialrgpt_regions": {
+      "valid_for_reporting": true,
+      "samples": 1400,
+      "statuses": {
+        "ok": 1400
+      },
+      "unparsed": 0,
+      "wall": {
+        "n": 1400,
+        "total": 235.33511461690068,
+        "mean": 0.16809651044064333,
+        "median": 0.15693069994449615,
+        "p95": 0.2595040686428547,
+        "min": 0.10635550320148468,
+        "max": 0.46448975801467896
+      },
+      "peak_allocated_bytes": 1582730240,
+      "peak_reserved_bytes": 1879048192,
+      "peak_device_used_bytes_nvml_sampled_20ms": null,
+      "components": {
+        "run_detection": {
+          "calls": 1529,
+          "failures": 0,
+          "time": {
+            "n": 1529,
+            "total": 173.16204884648323,
+            "mean": 0.1132518305078373,
+            "median": 0.1123286634683609,
+            "p95": 0.12904758378863335,
+            "min": 0.09434391185641289,
+            "max": 0.15492596104741096
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        }
+      }
+    }
+  },
+  "invalid_methods_for_reporting": [],
+  "composed_online_stage_sums": {
+    "spatialrgpt": {
+      "valid_for_reporting": true,
+      "statistic": {
+        "n": 1400,
+        "total": 1106.9864166788757,
+        "mean": 0.7907045833420541,
+        "median": 0.7368627525866032,
+        "p95": 1.2965406514704227,
+        "min": 0.4105094484984875,
+        "max": 3.062182940542698
+      },
+      "scope": "sum of corresponding warm stage wall times; excludes model reload, process launch and transfers"
+    }
+  },
+  "measured_online_requests": {
+    "spatialpin_online.summary": {
+      "method": "spatialpin",
+      "measured_wall": null,
+      "data_file": "/root/autodl-fs/baselines/cost_bench/manifest_full/samples.json",
+      "data_sha256": "4a28e07beabfc07535cb10e5b1e6d78f8068245cff064e7df8875aa0912b5c8e",
+      "status_counts": {},
+      "parse_failures": 0,
+      "peak_device_used_bytes_nvml_sampled_20ms": null,
+      "entire_session_seconds": 32.39690833166242,
+      "note": "Resident original-environment workers on one GPU; includes IPC, adapter reentry and file IO. First two requests warm up and load models; excluded from measured statistics. Device memory includes every GPU process; run alone.",
+      "valid_for_reporting": true
+    },
+    "spatialrgpt_online.summary": {
+      "method": "spatialrgpt",
+      "measured_wall": {
+        "n": 1400,
+        "total": 1550.877223573625,
+        "mean": 1.1077694454097322,
+        "median": 1.047866789624095,
+        "p95": 1.7006756328046322,
+        "min": 0.5688345953822136,
+        "max": 3.532169982790947
+      },
+      "data_file": "/root/autodl-fs/baselines/cost_bench/manifest_full/samples.json",
+      "data_sha256": "4a28e07beabfc07535cb10e5b1e6d78f8068245cff064e7df8875aa0912b5c8e",
+      "status_counts": {
+        "ok": 1400
+      },
+      "parse_failures": 460,
+      "peak_device_used_bytes_nvml_sampled_20ms": 25706364928,
+      "entire_session_seconds": 1695.5693323351443,
+      "note": "Resident original-environment workers on one GPU; includes IPC, adapter reentry and file IO. First two requests warm up and load models; excluded from measured statistics. Device memory includes every GPU process; run alone.",
+      "valid_for_reporting": true
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "evaluated": 1400,
+  "correct": 453,
+  "accuracy": 32.3571,
+  "status_counts": {
+    "ok": 1400
+  },
+  "by_category": {
+    "3D Geometry": {
+      "correct": 73,
+      "total": 238,
+      "accuracy": 30.6723
+    },
+    "Depth & Occlusion": {
+      "correct": 87,
+      "total": 259,
+      "accuracy": 33.5907
+    },
+    "Orientation": {
+      "correct": 47,
+      "total": 202,
+      "accuracy": 23.2673
+    },
+    "Relative Positioning": {
+      "correct": 94,
+      "total": 212,
+      "accuracy": 44.3396
+    },
+    "Size & Scale": {
+      "correct": 91,
+      "total": 252,
+      "accuracy": 36.1111
+    },
+    "Spatial Navigation": {
+      "correct": 61,
+      "total": 237,
+      "accuracy": 25.7384
+    }
+  }
+}

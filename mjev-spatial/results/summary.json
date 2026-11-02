@@ -1,0 +1,70 @@
+{
+  "method": "MJev-Spatial",
+  "official_spatiallab_score": true,
+  "evaluated": 1400,
+  "correct": 597,
+  "accuracy": 42.642857142857146,
+  "status_counts": {
+    "ok": 1400
+  },
+  "by_category": {
+    "Depth & Occlusion": {
+      "correct": 106,
+      "total": 259,
+      "accuracy": 40.92664092664093
+    },
+    "Relative Positioning": {
+      "correct": 114,
+      "total": 212,
+      "accuracy": 53.77358490566038
+    },
+    "Size & Scale": {
+      "correct": 93,
+      "total": 252,
+      "accuracy": 36.904761904761905
+    },
+    "Orientation": {
+      "correct": 83,
+      "total": 202,
+      "accuracy": 41.08910891089109
+    },
+    "3D Geometry": {
+      "correct": 94,
+      "total": 238,
+      "accuracy": 39.49579831932773
+    },
+    "Spatial Navigation": {
+      "correct": 107,
+      "total": 237,
+      "accuracy": 45.14767932489451
+    }
+  },
+  "wall": {
+    "n": 1400,
+    "total": 11384.050939580426,
+    "mean": 8.13146495684316,
+    "median": 8.112732257694006,
+    "p95": 8.331309063360095,
+    "min": 7.8954094387590885,
+    "max": 10.978492084890604
+  },
+  "runtime_seconds": {
+    "process_including_load": 11497.686117697507,
+    "load": 112.80485057458282,
+    "until_first_sample": 112.80486771836877
+  },
+  "calls_and_tokens": {
+    "model_calls": 1400,
+    "retries": 0,
+    "input_text_tokens": 72288,
+    "image_placeholder_tokens": 505400,
+    "vision_tokens": 505400,
+    "output_text_tokens": 0
+  },
+  "peak_memory": {
+    "nvml_used_bytes": 17878220800,
+    "nvml_used_gib": 16.650390625,
+    "torch_peak_allocated_bytes": 17302856704,
+    "torch_peak_reserved_bytes": 17379098624
+  }
+}

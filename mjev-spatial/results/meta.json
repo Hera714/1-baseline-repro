@@ -1,0 +1,76 @@
+{
+  "method": "mjev_spatial",
+  "stage": "predict",
+  "batch_size": 1,
+  "host": "autodl-pro-791817ed3958",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "gpu_total_bytes": 50866487296,
+  "torch": "2.9.0+cu128",
+  "compiled_cuda": "12.8",
+  "python": "3.10.22",
+  "torch_num_threads": 1,
+  "synchronized_component_profiling": true,
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "0",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "HF_HOME": "/root/autodl-fs/baselines/cache/huggingface_new",
+    "HF_HUB_OFFLINE": "1",
+    "TRANSFORMERS_OFFLINE": "1"
+  },
+  "checkpoint": "/autodl-fs/data/baselines/cache/huggingface_new/hub/models--mindlab-research--MJev-Spatial-4B/snapshots/0657319c58d342f54c5108cd3c4d983a79a8b3f7",
+  "input": "/root/autodl-tmp/new_baselines/runs/mjev_spatial_smoke/input.jsonl",
+  "data": "/root/autodl-fs/baselines/spatialpin/data/spatiallab_mcq.json",
+  "load_events": [
+    {
+      "name": "make_processor",
+      "kind": "load",
+      "status": "ok",
+      "seconds": 2.3039700370281935
+    },
+    {
+      "name": "build_builder",
+      "kind": "load",
+      "status": "ok",
+      "seconds": 6.261281669139862e-05
+    },
+    {
+      "name": "build_model",
+      "kind": "load",
+      "status": "ok",
+      "seconds": 110.50081792473793
+    }
+  ],
+  "models": [
+    {
+      "label": "MJev-Spatial/Qwen3.5-4B",
+      "parameters": 4444888576
+    }
+  ],
+  "argv": [
+    "/root/autodl-tmp/new_baselines/MJev-Spatial/scripts/predict_profile.py",
+    "--checkpoint",
+    "/autodl-fs/data/baselines/cache/huggingface_new/hub/models--mindlab-research--MJev-Spatial-4B/snapshots/0657319c58d342f54c5108cd3c4d983a79a8b3f7",
+    "--input",
+    "/root/autodl-tmp/new_baselines/runs/mjev_spatial_smoke/input.jsonl",
+    "--data",
+    "/root/autodl-fs/baselines/spatialpin/data/spatiallab_mcq.json",
+    "--output",
+    "/root/autodl-tmp/new_baselines/runs/mjev_spatial_full_profile_v1/predictions.jsonl",
+    "--cost-output",
+    "/root/autodl-tmp/new_baselines/runs/mjev_spatial_full_profile_v1/cost.jsonl",
+    "--summary",
+    "/root/autodl-tmp/new_baselines/runs/mjev_spatial_full_profile_v1/summary.json",
+    "--meta",
+    "/root/autodl-tmp/new_baselines/runs/mjev_spatial_full_profile_v1/meta.json",
+    "--device",
+    "cuda:0",
+    "--batch-size",
+    "1",
+    "--retries",
+    "0",
+    "--overwrite"
+  ],
+  "nvml_sampler_available": true
+}

@@ -1,0 +1,58 @@
+{
+  "source_predictions": "/root/autodl-fs/baselines/spatialrgpt/outputs/spatialrgpt_entity_v2_full/predictions.jsonl",
+  "source_predictions_sha256": "cbaa15066ea03814e57599ce998d6f50e949069ea5f2f270054634a5b2b9ccd6",
+  "rescoring_policy": "Preserve existing pred_answer; only when pred_answer is null, recover a leading standalone choice index 1-4.",
+  "evaluated": 1400,
+  "correct": 640,
+  "accuracy": 45.7143,
+  "status_counts": {
+    "ok": 1400
+  },
+  "originally_parsed": 940,
+  "recovered_leading_choices": 460,
+  "unresolved": 0,
+  "parser_counts_before": {
+    "bare_number": 665,
+    "answer_tag": 234,
+    "unparsed": 460,
+    "option_text": 41
+  },
+  "parser_counts_after": {
+    "bare_number": 665,
+    "answer_tag": 234,
+    "leading_choice_recovery": 460,
+    "option_text": 41
+  },
+  "by_category": {
+    "3D Geometry": {
+      "correct": 97,
+      "total": 238,
+      "accuracy": 40.7563
+    },
+    "Depth & Occlusion": {
+      "correct": 119,
+      "total": 259,
+      "accuracy": 45.9459
+    },
+    "Orientation": {
+      "correct": 81,
+      "total": 202,
+      "accuracy": 40.099
+    },
+    "Relative Positioning": {
+      "correct": 115,
+      "total": 212,
+      "accuracy": 54.2453
+    },
+    "Size & Scale": {
+      "correct": 115,
+      "total": 252,
+      "accuracy": 45.6349
+    },
+    "Spatial Navigation": {
+      "correct": 113,
+      "total": 237,
+      "accuracy": 47.6793
+    }
+  }
+}

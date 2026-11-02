@@ -1,0 +1,21 @@
+{
+  "method": "spatialrgpt",
+  "measured_wall": {
+    "n": 1400,
+    "total": 1550.877223573625,
+    "mean": 1.1077694454097322,
+    "median": 1.047866789624095,
+    "p95": 1.7006756328046322,
+    "min": 0.5688345953822136,
+    "max": 3.532169982790947
+  },
+  "data_file": "/root/autodl-fs/baselines/cost_bench/manifest_full/samples.json",
+  "data_sha256": "4a28e07beabfc07535cb10e5b1e6d78f8068245cff064e7df8875aa0912b5c8e",
+  "status_counts": {
+    "ok": 1400
+  },
+  "parse_failures": 460,
+  "peak_device_used_bytes_nvml_sampled_20ms": 25706364928,
+  "entire_session_seconds": 1695.5693323351443,
+  "note": "Resident original-environment workers on one GPU; includes IPC, adapter reentry and file IO. First two requests warm up and load models; excluded from measured statistics. Device memory includes every GPU process; run alone."
+}
