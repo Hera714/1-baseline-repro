@@ -1,0 +1,21 @@
+{
+  "method": "spatialpin",
+  "measured_wall": {
+    "n": 1400,
+    "total": 27142.298415392637,
+    "mean": 19.38735601099474,
+    "median": 17.17993007786572,
+    "p95": 38.95022836700082,
+    "min": 4.111877720803022,
+    "max": 64.51214358583093
+  },
+  "data_file": "/autodl-fs/data/baselines/cost_bench/ovis_compare_greedy_v1/manifests/full.json",
+  "data_sha256": "4a28e07beabfc07535cb10e5b1e6d78f8068245cff064e7df8875aa0912b5c8e",
+  "status_counts": {
+    "ok": 1400
+  },
+  "parse_failures": 8,
+  "peak_device_used_bytes_nvml_sampled_20ms": 32895401984,
+  "entire_session_seconds": 27562.35953848809,
+  "note": "Resident original-environment workers on one GPU; includes IPC, adapter reentry and file IO. First two requests warm up and load models; excluded from measured statistics. Device memory includes every GPU process; run alone."
+}

@@ -1,0 +1,12 @@
+{
+  "protocol": "ovis_compare_greedy_v1",
+  "method": "ovis",
+  "planned": 1400,
+  "engineering_success": 1400,
+  "valid_answers": 1399,
+  "unparsed_or_invalid": 1,
+  "correct": 729,
+  "accuracy_percent": 52.07142857142857,
+  "warmups_excluded": 2,
+  "denominator_policy": "all planned formal samples; invalid answers wrong"
+}

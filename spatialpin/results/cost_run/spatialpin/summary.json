@@ -1,0 +1,42 @@
+{
+  "adapter": "SpatialPIN-style matched-backbone SpatialLab adapter",
+  "official_spatialpin_score": false,
+  "evaluated": 1402,
+  "correct": 670,
+  "accuracy": 47.7889,
+  "status_counts": {
+    "ok": 1402
+  },
+  "by_category": {
+    "3D Geometry": {
+      "correct": 109,
+      "total": 240,
+      "accuracy": 45.4167
+    },
+    "Depth & Occlusion": {
+      "correct": 127,
+      "total": 259,
+      "accuracy": 49.0347
+    },
+    "Orientation": {
+      "correct": 98,
+      "total": 202,
+      "accuracy": 48.5149
+    },
+    "Relative Positioning": {
+      "correct": 116,
+      "total": 212,
+      "accuracy": 54.717
+    },
+    "Size & Scale": {
+      "correct": 106,
+      "total": 252,
+      "accuracy": 42.0635
+    },
+    "Spatial Navigation": {
+      "correct": 114,
+      "total": 237,
+      "accuracy": 48.1013
+    }
+  }
+}

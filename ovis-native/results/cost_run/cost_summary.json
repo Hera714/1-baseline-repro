@@ -1,0 +1,123 @@
+{
+  "timing_units": "seconds",
+  "p95": "nearest rank",
+  "warmups_excluded": true,
+  "failed_samples_included": true,
+  "component_times": "inclusive; do not sum nested events",
+  "memory_units": "bytes; torch allocated/reserved, not total device memory",
+  "stages": {
+    "ovis_native_evaluate": {
+      "valid_for_reporting": true,
+      "samples": 1400,
+      "statuses": {
+        "ok": 1400
+      },
+      "unparsed": 1,
+      "wall": {
+        "n": 1400,
+        "total": 15896.769214078784,
+        "mean": 11.354835152913417,
+        "median": 10.171870978549123,
+        "p95": 25.521016471087933,
+        "min": 1.4059632681310177,
+        "max": 46.04131141677499
+      },
+      "peak_allocated_bytes": 18930323968,
+      "peak_reserved_bytes": 19381878784,
+      "peak_device_used_bytes_nvml_sampled_20ms": 20543832064,
+      "components": {
+        "Ovis.generate": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 15691.55681584403,
+            "mean": 11.20825486846002,
+            "median": 10.056034926325083,
+            "p95": 25.42614034935832,
+            "min": 1.3401904366910458,
+            "max": 45.972347017377615
+          },
+          "returned_output_tokens": 700687,
+          "nonnegative_input_tokens": 151893,
+          "input_text_and_control_tokens": 151893,
+          "ovis_image_atom_tokens": 505400,
+          "ovis_visual_indicator_tokens": 2800,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        },
+        "Ovis.llm.generate": {
+          "calls": 1436,
+          "failures": 0,
+          "time": {
+            "n": 1436,
+            "total": 15554.305287759751,
+            "mean": 10.831688919052752,
+            "median": 9.85319585353136,
+            "p95": 25.21793620660901,
+            "min": 0.31993911787867546,
+            "max": 34.326719503849745
+          },
+          "returned_output_tokens": 700159,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 733062
+        },
+        "Ovis.merge_multimodal": {
+          "calls": 1436,
+          "failures": 0,
+          "time": {
+            "n": 1436,
+            "total": 135.56199080124497,
+            "mean": 0.09440250055797003,
+            "median": 0.08871706202626228,
+            "p95": 0.1327338106930256,
+            "min": 0.00011569634079933167,
+            "max": 0.36939653381705284
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 715917
+        },
+        "Ovis.preprocess_inputs": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 66.37153907865286,
+            "mean": 0.047408242199037755,
+            "median": 0.04054549150168896,
+            "p95": 0.08266959711909294,
+            "min": 0.018981683999300003,
+            "max": 2.6115284636616707
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        }
+      }
+    }
+  },
+  "invalid_methods_for_reporting": [],
+  "composed_online_stage_sums": {},
+  "measured_online_requests": {}
+}

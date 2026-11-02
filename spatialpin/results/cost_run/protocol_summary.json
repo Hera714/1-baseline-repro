@@ -1,0 +1,12 @@
+{
+  "protocol": "ovis_compare_greedy_v1",
+  "method": "spatialpin",
+  "planned": 1400,
+  "engineering_success": 1400,
+  "valid_answers": 1392,
+  "unparsed_or_invalid": 8,
+  "correct": 668,
+  "accuracy_percent": 47.714285714285715,
+  "warmups_excluded": 2,
+  "denominator_policy": "all planned formal samples; invalid answers wrong"
+}

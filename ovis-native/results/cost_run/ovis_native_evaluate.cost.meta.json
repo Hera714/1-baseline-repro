@@ -1,0 +1,89 @@
+{
+  "method": "ovis_native",
+  "stage": "evaluate",
+  "batch_size": 1,
+  "host": "autodl-pro-7919ba5077f0",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "gpu_total_bytes": 50864390144,
+  "torch": "2.5.1+cu124",
+  "compiled_cuda": "12.4",
+  "python": "3.10.22",
+  "torch_num_threads": 8,
+  "synchronized_component_profiling": true,
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "0",
+    "OMP_NUM_THREADS": "8",
+    "MKL_NUM_THREADS": "8",
+    "OPENBLAS_NUM_THREADS": "1",
+    "HF_HUB_OFFLINE": "1",
+    "TRANSFORMERS_OFFLINE": "1"
+  },
+  "process_profile_seconds": 15948.121155042201,
+  "startup": {
+    "seconds_until_first_sample": 6.296947292983532,
+    "memory": {
+      "peak_allocated_bytes": 18359789568,
+      "peak_reserved_bytes": 18452840448,
+      "allocated_bytes": 18359789568,
+      "reserved_bytes": 18452840448
+    }
+  },
+  "load_events": [
+    {
+      "name": "Ovis",
+      "kind": "load",
+      "parent": null,
+      "status": "ok",
+      "seconds": 5.987175475805998
+    }
+  ],
+  "models": [
+    {
+      "label": "Ovis",
+      "class_name": "Ovis2_5",
+      "model_path": "/root/autodl-fs/modelscope_cache/AIDC-AI/Ovis2___5-9B",
+      "parameters": 9174807784
+    },
+    {
+      "label": "Ovis.llm",
+      "class_name": "Qwen3ForCausalLM",
+      "model_path": "Qwen/Qwen3-8B",
+      "parameters": 8190735360
+    },
+    {
+      "label": "Ovis.llm.model",
+      "class_name": "Qwen3Model",
+      "model_path": "Qwen/Qwen3-8B",
+      "parameters": 7568405504
+    }
+  ],
+  "argv": [
+    "run_cost.py",
+    "--method",
+    "ovis_native",
+    "--data",
+    "/autodl-fs/data/baselines/cost_bench/ovis_compare_greedy_v1/manifests/full.json",
+    "--model",
+    "/root/autodl-fs/modelscope_cache/AIDC-AI/Ovis2___5-9B",
+    "--output",
+    "/autodl-fs/data/baselines/cost_bench/ovis_compare_greedy_v1/runs/baselines_full_20261022_210440/ovis"
+  ],
+  "source_file": "/autodl-fs/data/baselines/cost_bench/ovis_compare_greedy_v1/run_cost.py",
+  "source_sha256": "90bc0c3966ce6344cd3710b294d772a1b02611aa20f959da17f4367b4cb25100",
+  "profiler_source_hashes": {
+    "run_cost.py": "90bc0c3966ce6344cd3710b294d772a1b02611aa20f959da17f4367b4cb25100",
+    "online_cost.py": "52422f57d0bb00b4853e3ba8b4719290a246b48c8f2b12b28a754bc2d4a494bb",
+    "profile_runtime.py": "663b2fd556a5be956c302b6e59cecf5f83e9105dfb11b7b0ef051fb4f36d213d",
+    "summarize.py": "00bb6c2ebe884b44105e0f23f8363319ba50b0b157766f629bf7e9fb22711fee",
+    "offline_depth.py": "54206b2127826554010c9be6c426910bf238b53bf65846f2e5277559d7448484",
+    "bydeway_adapter.py": "04b280d40a95eefb13a76f2a9b32ac3520731dacd96c3940adcaaeecbb5b4c0c",
+    "canonical_evaluation.py": "692f82fbe6dfd7d2c61464a1d7d2ab353e11868e3862fc0bd569f0b717196051",
+    "protocol.py": "9e90cb6b0f74b62de947bbec698e8bc745b6a9abbf4209970cb4775b351edfab",
+    "assets.py": "9319264ce7ce064b24c7cf1a2586472097949648921895f98815e8186ded3800",
+    "verify_results.py": "f2e09d1242e3daa8f2992d61d36315ec20dc9c4932a6c630826f11c32993d84a",
+    "suite.py": "dc412166751e4a14088a0a8d897f44d37977f6adcd361a3c57f07dd370d9243d",
+    "test_protocol.py": "138c8820d6ae02781eec6c749b0f0183ed5428745563e2585e6ce41075e9198c",
+    "test_orchestration.py": "80d87fe68c70da1014fa2bc1fd91fb0ecd7a0b21bde034abfb6eaa025881d925"
+  },
+  "related_source_hashes": {}
+}

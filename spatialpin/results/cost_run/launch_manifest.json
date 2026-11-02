@@ -1,0 +1,10 @@
+{
+  "protocol": "ovis_compare_greedy_v1",
+  "method": "spatialpin",
+  "mode": "full",
+  "hostname": "autodl-pro-7919ba5077f0",
+  "data": "/autodl-fs/data/baselines/cost_bench/ovis_compare_greedy_v1/manifests/full.json",
+  "data_sha256": "4a28e07beabfc07535cb10e5b1e6d78f8068245cff064e7df8875aa0912b5c8e",
+  "asset_lock_sha256": "98eaa40fe8207573e0df1a5dfc7ef6ab6f322ff4293d6def9ef4ffa0b91925f6",
+  "time": 1792690307.3596354
+}

@@ -1,0 +1,2845 @@
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+
+Loading checkpoint shards:   0%|                                                                                          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 52.33it/s]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample warmup_754 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample warmup_683 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 2 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 3 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 4 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 5 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 7 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 8 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 9 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 10 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 11 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 12 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 13 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 14 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 15 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 17 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 18 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 19 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 20 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 21 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 23 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 24 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 25 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 26 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 27 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 28 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 29 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 30 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 31 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 32 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 33 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 34 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 35 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 36 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 37 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 38 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 40 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 41 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 42 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 44 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 45 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 46 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 47 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 48 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 49 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 50 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 51 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 52 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 53 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 54 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 55 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 56 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 57 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 58 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 59 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 60 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 61 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 62 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 63 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 64 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 65 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 66 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 67 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 68 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 69 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 71 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 72 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 73 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 74 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 75 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 76 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 77 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 79 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 80 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 81 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 82 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 84 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 85 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 86 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 87 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 88 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 89 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 90 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 91 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 92 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 93 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 94 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 96 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 97 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 98 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 99 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 100 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 101 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 103 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 104 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 105 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 106 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 107 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 108 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 110 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 111 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 112 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 113 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 114 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 115 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 116 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 118 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 119 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 120 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 121 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 122 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 123 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 125 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 126 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 127 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 128 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 129 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 130 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 131 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 132 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 133 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 134 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 135 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 136 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 137 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 138 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 139 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 140 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 141 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 142 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 144 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 145 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 146 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 147 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 148 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 149 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 150 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 151 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 152 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 153 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 154 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 155 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 156 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 157 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 158 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 159 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 160 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 161 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 162 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 163 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 164 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 165 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 166 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 167 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 168 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 169 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 170 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 171 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 172 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 173 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 174 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 175 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 176 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 177 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 178 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 179 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 180 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 181 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 182 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 183 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 184 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 185 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 186 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 187 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 188 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 189 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 190 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 191 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 192 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 193 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 194 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 195 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 196 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 197 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 198 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 199 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 200 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 201 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 202 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 203 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 204 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 205 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 206 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 207 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 208 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 209 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 210 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 211 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 212 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 213 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 214 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 215 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 216 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 217 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 218 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 219 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 221 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 222 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 223 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 224 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 225 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 226 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 227 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 228 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 229 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 230 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 231 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 232 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 233 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 234 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 235 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 236 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 237 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 238 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 239 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 240 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 241 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 242 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 243 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 244 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 245 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 246 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 247 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 248 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 249 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 250 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 251 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 252 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 253 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 254 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 255 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 256 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 257 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 258 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 259 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 260 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 261 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 262 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 263 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 264 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 265 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 266 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 267 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 268 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 269 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 270 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 272 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 273 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 274 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 275 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 276 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 277 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 278 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 279 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 280 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 281 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 282 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 283 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 284 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 285 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 286 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 287 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 288 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 289 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 290 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 291 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 294 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 295 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 296 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 297 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 298 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 299 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 300 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 301 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 302 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 303 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 304 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 305 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 306 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 307 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 308 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 309 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 310 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 311 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 312 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 314 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 315 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 316 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 317 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 318 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 319 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 320 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 321 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 322 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 323 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 324 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 325 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 326 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 327 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 328 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 329 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 331 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 332 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 333 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 334 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 335 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 336 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 337 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 338 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 339 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 340 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 341 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 343 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 344 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 345 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 347 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 348 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 349 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 350 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 351 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 352 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 353 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 354 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 355 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 356 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 357 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 358 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 359 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 360 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 361 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 362 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 363 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 364 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 365 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 366 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 367 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 368 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 369 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 370 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 371 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 372 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 373 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 374 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 375 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 376 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 377 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 378 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 379 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 380 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 381 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 382 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 383 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 385 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 386 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 387 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 388 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 389 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 390 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 391 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 392 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 393 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 394 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 395 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 396 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 397 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 398 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 399 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 400 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 401 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 402 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 403 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 404 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 405 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 406 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 407 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 408 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 409 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 411 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 412 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 413 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 414 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 415 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 416 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 417 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 418 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 419 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 420 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 421 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 422 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 423 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 424 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 425 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 426 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 427 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 428 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 429 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 430 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 431 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 432 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 433 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 434 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 435 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 436 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 437 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 438 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 439 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 440 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 441 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 442 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 443 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 444 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 446 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 447 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 448 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 449 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 450 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 451 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 452 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 453 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 454 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 455 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 456 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 457 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 458 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 459 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 460 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 461 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 462 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 463 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 464 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 465 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 466 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 467 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 468 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 469 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 470 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 471 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 472 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 473 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 474 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 475 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 476 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 477 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 478 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 479 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 480 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 481 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 482 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 483 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 484 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 485 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 486 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 487 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 488 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 489 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 490 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 491 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 492 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 493 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 494 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 495 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 496 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 497 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 498 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 499 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 501 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 502 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 503 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 504 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 505 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 506 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 507 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 508 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 509 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 510 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 511 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 512 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 513 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 514 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 515 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 516 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 517 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 518 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 519 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 520 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 521 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 522 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 523 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 524 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 526 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 527 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 528 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 529 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 530 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 531 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 532 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 533 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 534 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 535 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 536 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 537 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 538 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 540 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 541 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 542 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 543 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 546 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 548 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 549 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 550 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 551 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 552 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 553 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 554 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 555 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 556 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 557 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 558 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 559 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 560 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 561 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 562 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 563 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 564 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 566 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 567 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 568 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 569 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 570 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 571 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 572 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 573 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 574 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 575 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 576 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 577 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 578 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 579 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 580 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 581 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 582 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 583 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 584 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 585 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 586 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 587 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 588 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 589 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 590 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 591 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 592 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 593 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 594 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 595 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 596 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 597 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 598 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 599 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 600 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 601 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 602 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 603 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 605 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 606 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 607 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 608 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 609 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 610 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 612 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 613 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 614 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 615 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 616 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 617 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 618 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 619 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 620 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 621 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 622 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 623 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 624 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 625 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 626 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 627 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 628 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 629 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 630 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 631 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 632 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 633 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 634 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 635 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 636 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 637 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 638 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 639 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 640 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 641 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 642 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 643 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 644 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 645 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 646 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 647 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 648 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 649 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 650 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 651 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 652 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 653 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 654 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 655 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 656 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 657 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 658 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 659 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 660 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 661 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 662 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 663 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 664 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 666 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 667 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 668 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 669 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 670 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 672 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 673 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 674 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 675 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 676 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 677 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 678 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 679 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 680 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 681 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 683 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 684 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 685 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 686 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 687 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 688 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 689 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 690 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 691 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 692 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 693 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 694 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 695 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 696 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 697 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 698 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 699 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 700 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 701 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 703 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 704 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 705 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 706 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 707 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 708 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 709 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 712 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 713 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 714 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 715 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 716 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 717 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 718 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 719 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 720 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 721 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 722 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 723 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 724 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 725 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 726 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 727 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 728 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 729 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 730 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 731 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 732 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 733 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 734 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 735 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 736 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 737 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 739 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 740 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 741 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 742 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 743 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 744 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 745 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 746 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 747 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 748 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 749 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 750 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 751 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 753 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 754 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 755 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 756 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 758 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 759 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 760 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 761 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 762 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 763 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 764 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 765 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 766 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 767 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 768 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 769 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 770 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 771 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 772 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 773 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 774 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 775 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 776 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 777 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 778 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 779 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 780 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 781 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 782 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 783 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 784 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 785 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 786 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 787 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 788 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 789 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 790 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 791 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 792 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 793 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 794 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 795 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 797 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 798 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 799 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 800 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 801 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 802 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 803 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 804 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 805 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 806 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 807 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 808 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 809 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 810 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 811 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 812 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 813 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 814 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 816 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 817 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 818 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 819 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 820 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 821 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 822 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 823 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 824 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 825 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 826 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 827 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 828 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 829 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 830 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 831 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 832 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 834 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 835 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 836 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 837 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 838 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 839 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 840 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 841 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 842 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 843 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 844 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 847 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 848 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 849 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 850 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 851 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 852 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 853 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 854 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 855 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 856 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 857 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 859 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 860 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 861 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 862 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 863 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 864 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 865 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 867 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 868 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 869 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 870 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 871 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 872 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 873 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 874 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 875 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 876 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 877 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 878 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 879 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 880 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 881 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 882 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 883 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 884 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 885 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 886 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 887 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 888 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 889 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 890 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 891 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 892 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 893 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 894 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 895 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 896 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 897 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 898 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 899 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 900 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 901 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 902 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 903 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 904 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 905 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 906 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 907 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 908 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 909 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 910 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 911 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 912 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 913 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 914 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 915 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 916 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 917 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 918 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 919 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 920 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 921 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 922 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 923 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 924 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 925 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 927 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 928 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 929 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 930 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 931 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 934 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 935 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 936 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 937 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 938 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 939 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 940 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 941 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 942 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 943 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 944 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 945 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 946 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 947 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 948 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 949 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 951 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 953 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 954 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 955 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 956 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 957 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 958 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 959 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 960 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 961 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 962 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 963 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 964 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 965 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 966 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 967 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 968 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 969 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 970 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 971 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 972 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 973 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 974 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 975 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 976 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 977 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 978 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 979 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 980 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 981 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 982 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 983 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 984 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 985 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 986 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 987 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 988 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 989 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 990 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 991 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 992 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 993 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 994 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 995 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 996 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 997 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 998 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 999 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1000 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1001 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1002 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1003 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1004 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1005 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1006 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1007 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1008 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1009 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1010 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1011 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1012 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1013 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1014 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1015 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1016 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1017 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1018 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1019 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1020 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1021 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1022 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1023 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1024 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1026 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1027 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1028 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1029 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1030 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1031 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1032 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1033 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1034 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1035 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1036 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1037 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1038 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1039 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1040 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1041 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1042 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1043 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1044 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1045 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1046 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1047 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1048 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1049 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1050 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1051 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1053 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1054 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1055 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1056 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1057 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1058 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1059 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1060 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1061 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1062 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1063 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1064 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1065 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1066 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1067 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1068 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1069 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1070 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1071 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1072 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1073 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1074 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1075 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1076 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1077 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1078 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1079 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1080 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1081 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1082 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1083 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1084 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1085 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1086 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1087 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1088 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1089 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1091 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1092 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1093 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1094 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1095 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1096 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1097 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1098 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1099 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1100 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1101 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1102 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1103 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1104 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1105 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1106 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1107 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1108 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1109 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1110 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1111 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1112 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1113 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1114 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1115 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1116 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1117 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1118 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1119 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1120 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1121 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1125 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1126 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1127 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1128 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1129 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1130 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1131 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1132 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1134 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1135 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1136 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1137 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1138 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1140 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1141 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1142 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1143 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1144 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1145 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1146 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1147 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1148 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1149 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1150 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1151 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1152 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1153 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1154 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1155 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1156 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1157 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1158 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1159 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1160 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1161 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1162 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1163 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1164 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1165 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1166 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1167 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1169 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1170 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1171 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1172 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1173 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1174 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1175 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1176 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1177 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1178 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1179 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1180 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1181 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1182 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1183 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1184 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1186 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1187 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1188 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1189 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1190 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1191 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1192 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1193 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1194 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1195 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1196 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1197 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1198 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1199 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1200 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1201 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1202 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1203 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1204 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1205 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1206 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1207 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1208 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1209 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1210 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1211 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1212 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1213 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1214 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1216 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1217 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1218 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1219 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1220 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1222 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1223 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1224 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1225 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1226 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1227 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1228 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1229 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1230 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1231 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1232 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1233 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1234 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1235 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1236 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1237 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1238 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1239 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1240 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1241 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1242 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1243 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1244 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1245 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1246 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1247 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1248 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1249 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1250 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1251 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1252 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1253 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1254 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1255 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1256 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1257 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1258 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1259 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1260 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1261 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1262 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1263 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1264 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1265 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1266 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1267 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1268 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1269 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1270 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1271 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1272 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1273 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1275 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1276 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1277 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1278 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1279 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1280 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1281 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1282 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1283 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1284 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1285 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1286 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1287 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1288 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1289 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1290 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1291 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1292 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1293 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1294 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1295 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1296 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1297 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1298 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1299 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1300 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1301 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1302 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1303 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1304 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1305 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1306 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1307 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1308 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1309 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1310 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1311 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1312 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1313 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1314 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1315 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1316 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1317 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1318 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1319 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1320 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1321 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1322 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1323 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1324 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1325 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1326 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1327 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1328 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1329 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1330 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1331 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1332 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1333 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1334 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1335 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1336 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1337 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1338 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1339 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1340 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1341 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1342 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1343 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1344 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1345 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1346 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1347 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1348 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1350 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1351 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1352 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1354 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1355 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1356 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1357 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1358 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1359 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1360 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1361 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1362 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1364 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1365 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1366 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1367 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1368 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1369 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1370 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1371 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1372 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1373 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1374 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1375 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1376 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1377 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1378 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1379 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1380 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1381 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1382 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1383 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1384 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1385 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1386 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1388 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1389 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1390 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1391 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1392 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1393 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1394 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1395 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1396 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1397 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1398 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1399 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1400 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1401 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1402 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1403 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1404 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1405 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1406 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1407 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1408 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1409 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1410 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1412 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1413 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1414 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1415 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1416 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1417 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1418 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1419 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1420 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1421 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1422 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1423 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1424 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1426 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1428 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1429 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1430 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1431 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1432 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1433 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1434 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1435 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1436 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1437 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1438 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1439 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1440 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1441 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1442 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1443 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1444 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1445 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1446 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1447 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1448 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1449 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1450 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1451 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1452 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1453 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1454 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1455 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1456 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1457 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1458 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1459 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1460 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1461 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1462 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1463 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1464 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1465 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1466 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1467 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1468 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1469 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1470 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1471 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1472 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1473 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1474 ok
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Ovis sample 1475 ok

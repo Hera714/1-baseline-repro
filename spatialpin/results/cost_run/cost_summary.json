@@ -1,0 +1,446 @@
+{
+  "timing_units": "seconds",
+  "p95": "nearest rank",
+  "warmups_excluded": true,
+  "failed_samples_included": true,
+  "component_times": "inclusive; do not sum nested events",
+  "memory_units": "bytes; torch allocated/reserved, not total device memory",
+  "stages": {
+    "spatialpin_discover": {
+      "valid_for_reporting": true,
+      "samples": 1400,
+      "statuses": {
+        "ok": 1400
+      },
+      "unparsed": 0,
+      "wall": {
+        "n": 1400,
+        "total": 8550.630990676582,
+        "mean": 6.107593564768987,
+        "median": 5.663830224424601,
+        "p95": 10.11916233226657,
+        "min": 1.2656998373568058,
+        "max": 26.083083629608154
+      },
+      "peak_allocated_bytes": 18606262272,
+      "peak_reserved_bytes": 18901630976,
+      "peak_device_used_bytes_nvml_sampled_20ms": null,
+      "components": {
+        "Ovis.model.generate": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 8389.004751842469,
+            "mean": 5.992146251316049,
+            "median": 5.550191355869174,
+            "p95": 9.919577948749065,
+            "min": 1.2126226164400578,
+            "max": 25.978915933519602
+          },
+          "returned_output_tokens": 323224,
+          "nonnegative_input_tokens": 251293,
+          "input_text_and_control_tokens": 251293,
+          "ovis_image_atom_tokens": 420000,
+          "ovis_visual_indicator_tokens": 2800,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        },
+        "Ovis.model.llm.generate": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 7541.565494082868,
+            "mean": 5.3868324957734774,
+            "median": 4.935276651754975,
+            "p95": 9.224406890571117,
+            "min": 0.84903883934021,
+            "max": 24.782791897654533
+          },
+          "returned_output_tokens": 323224,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 674093
+        },
+        "Ovis.model.merge_multimodal": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 841.5832782685757,
+            "mean": 0.6011309130489826,
+            "median": 0.6048751715570688,
+            "p95": 1.0670462101697922,
+            "min": 0.08063648641109467,
+            "max": 1.8503015600144863
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 674093
+        },
+        "Ovis.model.preprocess_inputs": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 48.00442651286721,
+            "mean": 0.03428887608061944,
+            "median": 0.03273002803325653,
+            "p95": 0.05129164457321167,
+            "min": 0.014159519225358963,
+            "max": 0.10666470974683762
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        }
+      }
+    },
+    "spatialpin_evaluate": {
+      "valid_for_reporting": true,
+      "samples": 1400,
+      "statuses": {
+        "ok": 1400
+      },
+      "unparsed": 8,
+      "wall": {
+        "n": 1400,
+        "total": 14896.662039954215,
+        "mean": 10.640472885681582,
+        "median": 8.136560266837478,
+        "p95": 27.98787895217538,
+        "min": 1.7756386287510395,
+        "max": 49.080031637102365
+      },
+      "peak_allocated_bytes": 20640055296,
+      "peak_reserved_bytes": 21562916864,
+      "peak_device_used_bytes_nvml_sampled_20ms": null,
+      "components": {
+        "Ovis.model.generate": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 14792.935366425663,
+            "mean": 10.56638240458976,
+            "median": 8.055075831711292,
+            "p95": 27.904147874563932,
+            "min": 1.6871852800250053,
+            "max": 49.013975489884615
+          },
+          "returned_output_tokens": 595191,
+          "nonnegative_input_tokens": 1403371,
+          "input_text_and_control_tokens": 1403371,
+          "ovis_image_atom_tokens": 840000,
+          "ovis_visual_indicator_tokens": 2800,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        },
+        "Ovis.model.llm.generate": {
+          "calls": 1446,
+          "failures": 0,
+          "time": {
+            "n": 1446,
+            "total": 13948.774694412947,
+            "mean": 9.64645552863966,
+            "median": 7.265086913481355,
+            "p95": 26.939816266298294,
+            "min": 0.4731639623641968,
+            "max": 38.45441072806716
+          },
+          "returned_output_tokens": 594255,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 2403036
+        },
+        "Ovis.model.merge_multimodal": {
+          "calls": 1446,
+          "failures": 0,
+          "time": {
+            "n": 1446,
+            "total": 838.4908018670976,
+            "mean": 0.5798691575844381,
+            "median": 0.5803032014518976,
+            "p95": 1.0604965016245842,
+            "min": 0.00010965391993522644,
+            "max": 1.7870082035660744
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 2317763
+        },
+        "Ovis.model.preprocess_inputs": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 58.320509530603886,
+            "mean": 0.041657506807574206,
+            "median": 0.03950725682079792,
+            "p95": 0.059830132871866226,
+            "min": 0.02504563331604004,
+            "max": 0.21440178900957108
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        },
+        "build_evidence_panel": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 17.530833683907986,
+            "mean": 0.012522024059934276,
+            "median": 0.009668830782175064,
+            "p95": 0.02678217738866806,
+            "min": 0.006860621273517609,
+            "max": 0.0374424085021019
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        }
+      }
+    },
+    "spatialpin_prepare": {
+      "valid_for_reporting": true,
+      "samples": 1400,
+      "statuses": {
+        "ok": 1400
+      },
+      "unparsed": 0,
+      "wall": {
+        "n": 1400,
+        "total": 2895.7024254649878,
+        "mean": 2.0683588753321343,
+        "median": 1.9023103471845388,
+        "p95": 3.659635677933693,
+        "min": 0.4430527351796627,
+        "max": 6.426462400704622
+      },
+      "peak_allocated_bytes": 8296816640,
+      "peak_reserved_bytes": 9667870720,
+      "peak_device_used_bytes_nvml_sampled_20ms": null,
+      "components": {
+        "estimate_inverse_depth": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 126.32553956657648,
+            "mean": 0.09023252826184035,
+            "median": 0.08655227907001972,
+            "p95": 0.11896612122654915,
+            "min": 0.08057496696710587,
+            "max": 0.14464538171887398
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        },
+        "load_spatialpin_models.0.predict": {
+          "calls": 7905,
+          "failures": 0,
+          "time": {
+            "n": 7905,
+            "total": 2732.592679243535,
+            "mean": 0.345679023307215,
+            "median": 0.3523695804178715,
+            "p95": 0.37481824681162834,
+            "min": 0.11195318028330803,
+            "max": 0.8894835785031319
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        },
+        "load_spatialpin_models.0.predict_dino": {
+          "calls": 7905,
+          "failures": 0,
+          "time": {
+            "n": 7905,
+            "total": 1000.4745139032602,
+            "mean": 0.12656224084797726,
+            "median": 0.1234341599047184,
+            "p95": 0.14516396448016167,
+            "min": 0.11192453652620316,
+            "max": 0.6583619266748428
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        },
+        "load_spatialpin_models.0.predict_sam": {
+          "calls": 7557,
+          "failures": 0,
+          "time": {
+            "n": 7557,
+            "total": 1731.6824202984571,
+            "mean": 0.22914945352632754,
+            "median": 0.22877438738942146,
+            "p95": 0.2316851168870926,
+            "min": 0.22664472460746765,
+            "max": 0.2946016453206539
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        },
+        "load_spatialpin_models.0.sam.predict_torch": {
+          "calls": 7557,
+          "failures": 0,
+          "time": {
+            "n": 7557,
+            "total": 21.516373123973608,
+            "mean": 0.0028472109466684673,
+            "median": 0.002540379762649536,
+            "p95": 0.004101797938346863,
+            "min": 0.0022928528487682343,
+            "max": 0.05488570034503937
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        },
+        "load_spatialpin_models.0.sam.set_image": {
+          "calls": 7557,
+          "failures": 0,
+          "time": {
+            "n": 7557,
+            "total": 1703.5274312980473,
+            "mean": 0.2254237701863236,
+            "median": 0.22531289979815483,
+            "p95": 0.22678112983703613,
+            "min": 0.22328738123178482,
+            "max": 0.23183314129710197
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        }
+      }
+    }
+  },
+  "invalid_methods_for_reporting": [],
+  "composed_online_stage_sums": {
+    "spatialpin": {
+      "valid_for_reporting": true,
+      "statistic": {
+        "n": 1400,
+        "total": 26342.995456095785,
+        "mean": 18.816425325782703,
+        "median": 16.552064310759306,
+        "p95": 38.428875010460615,
+        "min": 3.8841119408607483,
+        "max": 63.873414020985365
+      },
+      "scope": "sum of corresponding warm stage wall times; excludes model reload, process launch and transfers"
+    }
+  },
+  "measured_online_requests": {
+    "spatialpin_online.summary": {
+      "method": "spatialpin",
+      "measured_wall": {
+        "n": 1400,
+        "total": 27142.298415392637,
+        "mean": 19.38735601099474,
+        "median": 17.17993007786572,
+        "p95": 38.95022836700082,
+        "min": 4.111877720803022,
+        "max": 64.51214358583093
+      },
+      "data_file": "/autodl-fs/data/baselines/cost_bench/ovis_compare_greedy_v1/manifests/full.json",
+      "data_sha256": "4a28e07beabfc07535cb10e5b1e6d78f8068245cff064e7df8875aa0912b5c8e",
+      "status_counts": {
+        "ok": 1400
+      },
+      "parse_failures": 8,
+      "peak_device_used_bytes_nvml_sampled_20ms": 32895401984,
+      "entire_session_seconds": 27562.35953848809,
+      "note": "Resident original-environment workers on one GPU; includes IPC, adapter reentry and file IO. First two requests warm up and load models; excluded from measured statistics. Device memory includes every GPU process; run alone.",
+      "valid_for_reporting": true
+    }
+  }
+}

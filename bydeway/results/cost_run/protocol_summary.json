@@ -1,0 +1,12 @@
+{
+  "protocol": "ovis_compare_greedy_v1",
+  "method": "bydeway",
+  "planned": 1400,
+  "engineering_success": 1400,
+  "valid_answers": 1390,
+  "unparsed_or_invalid": 10,
+  "correct": 728,
+  "accuracy_percent": 52.0,
+  "warmups_excluded": 2,
+  "denominator_policy": "all planned formal samples; invalid answers wrong"
+}

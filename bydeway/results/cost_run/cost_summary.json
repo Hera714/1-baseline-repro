@@ -1,0 +1,189 @@
+{
+  "timing_units": "seconds",
+  "p95": "nearest rank",
+  "warmups_excluded": true,
+  "failed_samples_included": true,
+  "component_times": "inclusive; do not sum nested events",
+  "memory_units": "bytes; torch allocated/reserved, not total device memory",
+  "stages": {
+    "bydeway_evaluate": {
+      "valid_for_reporting": true,
+      "samples": 1400,
+      "statuses": {
+        "ok": 1400
+      },
+      "unparsed": 10,
+      "wall": {
+        "n": 1400,
+        "total": 16658.048435516655,
+        "mean": 11.89860602536904,
+        "median": 9.460582861676812,
+        "p95": 28.242723312228918,
+        "min": 2.8972007520496845,
+        "max": 51.496427204459906
+      },
+      "peak_allocated_bytes": 27186550272,
+      "peak_reserved_bytes": 27336376320,
+      "peak_device_used_bytes_nvml_sampled_20ms": 28502523904,
+      "components": {
+        "ByDeWay.Ovis.generate": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 15135.478326268494,
+            "mean": 10.811055947334639,
+            "median": 8.39483024738729,
+            "p95": 27.3222616314888,
+            "min": 1.9134031236171722,
+            "max": 50.255620658397675
+          },
+          "returned_output_tokens": 615514,
+          "nonnegative_input_tokens": 207340,
+          "input_text_and_control_tokens": 207340,
+          "ovis_image_atom_tokens": 505400,
+          "ovis_visual_indicator_tokens": 2800,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        },
+        "ByDeWay.Ovis.llm.generate": {
+          "calls": 1435,
+          "failures": 0,
+          "time": {
+            "n": 1435,
+            "total": 14521.353401791304,
+            "mean": 10.119410036091502,
+            "median": 7.923632558435202,
+            "p95": 26.79569499194622,
+            "min": 0.4703415744006634,
+            "max": 37.23861376196146
+          },
+          "returned_output_tokens": 614842,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 788108
+        },
+        "ByDeWay.Ovis.merge_multimodal": {
+          "calls": 1435,
+          "failures": 0,
+          "time": {
+            "n": 1435,
+            "total": 606.3966212421656,
+            "mean": 0.4225760426774673,
+            "median": 0.3600255027413368,
+            "p95": 0.8915432430803776,
+            "min": 0.00011675432324409485,
+            "max": 1.9648148491978645
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 769972
+        },
+        "ByDeWay.Ovis.preprocess_inputs": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 61.0858529061079,
+            "mean": 0.043632752075791356,
+            "median": 0.034956250339746475,
+            "p95": 0.07378897815942764,
+            "min": 0.01917131617665291,
+            "max": 2.20499823987484
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        },
+        "ByDeWay.depth_captioner.captioner.model.generate": {
+          "calls": 4200,
+          "failures": 0,
+          "time": {
+            "n": 4200,
+            "total": 981.6151533685625,
+            "mean": 0.23371789365918152,
+            "median": 0.22443870641291142,
+            "p95": 0.3799195922911167,
+            "min": 0.0851038508117199,
+            "max": 0.887049525976181
+          },
+          "returned_output_tokens": 114971,
+          "nonnegative_input_tokens": 298200,
+          "input_text_and_control_tokens": 29400,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 268800,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        },
+        "ByDeWay.depth_captioner.depth_context.model.infer_image": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 92.18547065928578,
+            "mean": 0.0658467647566327,
+            "median": 0.06486712209880352,
+            "p95": 0.07220499590039253,
+            "min": 0.06081449240446091,
+            "max": 0.11822298541665077
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        },
+        "ByDeWay.depth_captioner.get_caption_with_depth": {
+          "calls": 1400,
+          "failures": 0,
+          "time": {
+            "n": 1400,
+            "total": 1185.650220386684,
+            "mean": 0.8468930145619171,
+            "median": 0.8385643921792507,
+            "p95": 1.114480409771204,
+            "min": 0.467424850910902,
+            "max": 1.652683049440384
+          },
+          "returned_output_tokens": 0,
+          "nonnegative_input_tokens": 0,
+          "input_text_and_control_tokens": 0,
+          "ovis_image_atom_tokens": 0,
+          "ovis_visual_indicator_tokens": 0,
+          "kosmos_image_embedding_positions": 0,
+          "regional_mask_positions": 0,
+          "regional_depth_positions": 0,
+          "effective_input_embedding_tokens": 0
+        }
+      }
+    }
+  },
+  "invalid_methods_for_reporting": [],
+  "composed_online_stage_sums": {},
+  "measured_online_requests": {}
+}
